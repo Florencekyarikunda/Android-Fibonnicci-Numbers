@@ -14,7 +14,7 @@ class MainActivity : AppCompatActivity() {
 
 var rvNumbers=findViewById<RecyclerView>(R.id.rvNumbers)
         rvNumbers.layoutManager=LinearLayoutManager(baseContext)
-         var numbersAdapter=numbersRecyclerViewAdapter((Fibbonicci(100)))
+         var numbersAdapter=numbersRecyclerViewAdapter(Fibbonicci(100))
         rvNumbers.adapter=numbersAdapter
 
                 }
